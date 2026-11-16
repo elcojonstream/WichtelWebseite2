@@ -1,6 +1,3 @@
-# WichtelWebseite2
-Another Wichtelwebseite from GPT
-
 # 🎄 Familien-Wichteln
 
 Weihnachtliche Familien-Wichtel-Seite mit Anmeldung, Wunschlisten, persönlichen Geheimlinks, Geschenk-Animation, Musik und Admin-Dashboard.
