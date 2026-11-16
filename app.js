@@ -1,5 +1,5 @@
 // Frontend-Konfiguration: Supabase Project URL und anon/public Key hier eintragen.
-const CONFIG={SUPABASE_URL:'https://DEIN-PROJEKT.supabase.co',SUPABASE_ANON_KEY:'DEIN_SUPABASE_ANON_PUBLIC_KEY'};
+const CONFIG={SUPABASE_URL:'https://fjottefayyvwkgvmfczx.supabase.co',SUPABASE_ANON_KEY:'sb_publishable_1eDucy8k2pN3F2zKX8cF_A_w_HAVIl2'};
 const API=()=>`${CONFIG.SUPABASE_URL}/functions/v1/wichtel-api`;
 const $=id=>document.getElementById(id);let adminToken=sessionStorage.getItem('wichtel_admin')||'',musicOn=false,audio=null,musicTimer=null;
 const configured=()=>!CONFIG.SUPABASE_URL.includes('DEIN-PROJEKT')&&!CONFIG.SUPABASE_ANON_KEY.includes('DEIN_');
